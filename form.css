@@ -268,7 +268,7 @@ input:focus-visible {
     }
 }
 
-@media (min-width:1186px) {
+@media (min-width:1002px) {
     .flex-container {
         display: flex;
         margin: auto;
@@ -284,7 +284,7 @@ input:focus-visible {
     }
 
     .headp {
-        width: 50%;
+        width: 80%;
         margin-top: 170px;
         padding: 0px 3px;
         margin-left: -15px;
