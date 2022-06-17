@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.fonts.googleapis.com/css? Family=Poppins">
+    <link rel="icon" type="image/png" sizes="32x32-1.png" href="favicon-32x32-1.png">
+    <link rel="stylesheet" href="form.css">
+    <title>Form design flexbox</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="headp">
+            <h1>Learn to code by watching others</h1>
+            <p class="pg">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                understanding how developers think is invaluable.</p>
+        </div>
+
+        <div class="formb">
+            <p class="trial"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+
+            <form>
+                <input type="text" name="fname" id="fname" placeholder="First Name" minlength="3" maxlength="18" required>
+                <!-- <span>First Name canot be empty</span>--> <br>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" minlength="3" maxlength="18" required>
+                <!-- <span>Last Name canot be empty</span>--><br>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <!-- <span>Looks like this is not an email</span>--><br>
+                <input type="password" name="psw" id="psw" placeholder="Password"  title="must contain at least one uppercase and lower case letter, one number, and at least eight or more characters" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]){8,}" required>
+                 <!-- <span>Password cannot be empty</span>--><br>
+
+                <button type="submit" value="submit" class="btn">CLAIM YOUR FREE TRIAL</button>
+                <p class="terms">By clicking the button, you are agreeing to our <a href="#" class="link">Terms and Services</a> </p>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
